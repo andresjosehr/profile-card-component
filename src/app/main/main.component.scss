@@ -1,0 +1,26 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1ba1ad;
+    background-image: url("/assets/images/bg-pattern-top.svg"), url("/assets/images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: left -500px top -500px, right -500px bottom -545px;
+
+    /* .burble-1{
+        position: absolute;
+        margin-top: -50vh;
+        margin-left: -129px;
+        width: 52%;
+    }
+
+    .burble-2{
+        position: absolute;
+        width: 52%;
+    } */
+}
+
+@media (max-width: 800px){
+    .main{
+        background-size: 800px, 800px;
+    }
+}
